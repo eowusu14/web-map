@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <!-- <meta name="keyword" content="Web Map"> -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>GeoPortal :: Home</title>
+      <link rel="stylesheet" href="Assets/bootstrap/css/bootstrap.min.css">
+      <link rel="stylesheet" href="Assets/css/style.css">
+
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.1/dist/leaflet.css"
+      integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
+      crossorigin=""/>
+      <style type="text/css" rel="stylesheet" href="web_map(geospatial development)/css/map.css"></style>  
+      <style type="text/css">
+      </style>
+  </head>
+  <body>
+    <div class="container-fluid" style="padding: 0px;">
+      <nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light" style="padding: 5px">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="index.html" style="padding: 0px"> <img src="Assets/img/logo.png" style="height: 40px;"></a>
+              <a class="navbar-brand" href="index.html">GeoPortal</a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                  <!-- <li class="nav-item active">
+                       <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li> -->
+                  <li class="nav-item">
+                      <a class="nav-link" href="about.html">About</a>
+                  </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+          </div>
+      </nav>
+    </div>
+
+
+    <div class="col-md-12" style="padding: 0px;">
+        <div class="box" id="map"> 
+
+            <div id="coordinates"></div>
+            <!-- <div class="toolbox" style="">
+                 <div class="card" style="border-radius: 8px;">
+                     Default panel contents -->
+                    <!-- <div class="card-header" style="text-align: center;"> Tools / Legend Box</div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            Region
+                            <label class="switch ">
+                                <input type="checkbox" class="success">
+                                <span class="slider round"></span>
+                            </label>
+                        </li>
+                        <li class="list-group-item">
+                            District
+                            <label class="switch ">
+                                <input type="checkbox" class="success">
+                                <span class="slider round"></span>
+                            </label>
+                        </li>
+                        <li class="list-group-item">
+                            Layer
+                            <label class="switch ">
+                                <input type="checkbox" class="success">
+                                <span class="slider round"></span>
+                            </label>
+                        </li>
+                    </ul>
+                </div> -->
+            <!-- </div>
+        </div>
+      </div> -->
+  
+      <script src="https://unpkg.com/leaflet@1.9.1/dist/leaflet.js"
+	integrity="sha256-NDI0K41gVbWqfkkaHj15IzU7PtMoelkzyKp8TOaFQ3s="
+	crossorigin=""></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+      <script src="Assets\bootstrap\js\bootstrap.min.js"></script>
+    <script type ="text/javascript" src="web_map(geospatial development)/data/16_Regions.js"></script>
+	<script type ="text/javascript" src="web_map(geospatial development)/data/colleges.js"></script>
+	<script type ="text/javascript" src="web_map(geospatial development)/data/healthfacilities.js"></script>
+	<script type ="text/javascript" src="web_map(geospatial development)/data/RailwayLines.js"></script>
+
+    <script src="web_map(geospatial development)/js/leaflet.browser.print.min.js"></script>
+    <script src="web_map(geospatial development)\js\leaflet-svg-shape-markers.min.js"></script>
+
+    <script src="web_map(geospatial development)/js/map.js"></script>
+    
+        
+  </body>
+</html>
